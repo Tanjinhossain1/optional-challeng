@@ -51,7 +51,11 @@
      .gap{
          margin-top: 200px;
      }
-     
+     @media (min-width:300px) {
+     .flex-xs-column{
+      flex-direction: column !important;
+     }
+   }
     
     </style>
 </head>
@@ -247,7 +251,7 @@
 
     <section class="container  gap  mb-5">
 
-      <div class="d-flex justify-content-between flex-sm-column flex-xs-column flex-md-column flex-lg-row ">
+      <div class="d-flex justify-content-between flex-sm-column  flex-xs-column flex-md-column flex-lg-row ">
         <div class="">
             <div class=" shadow mb-5" style="max-width: 540px;">
                 <div class="row g-0 d-flex justify-content-center gy-3">
